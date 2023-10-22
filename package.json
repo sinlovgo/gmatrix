@@ -1,0 +1,28 @@
+{
+  "name": "gmatrix",
+  "version": "0.1.2",
+  "description": "Matrix like effect in your terminal",
+  "directories": {
+    "doc": "doc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sinlovgo/gmatrix.git"
+  },
+  "keywords": [
+    "go",
+    "make",
+    "docker",
+    "action"
+  ],
+  "author": {
+    "name": "sinlov",
+    "email": "sinlovgmppt@gmail.com",
+    "url": "https://github.com/sinlovgo/gmatrix"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/sinlovgo/gmatrix/issues"
+  },
+  "homepage": "https://github.com/sinlovgo/gmatrix#readme"
+}
