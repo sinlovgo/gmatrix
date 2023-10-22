@@ -1,6 +1,6 @@
 {
   "name": "gmatrix",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "description": "Matrix like effect in your terminal",
   "directories": {
     "doc": "doc"
