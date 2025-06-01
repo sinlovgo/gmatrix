@@ -42,7 +42,7 @@ $ go install -v github.com/sinlovgo/gmatrix/cmd/gmatrix@latest
 ## env
 
 - minimum go version: go 1.19
-- change `go 1.19`, `^1.19`, `1.19.10-buster`, `1.19.10` to new go version
+- change `go 1.19`, `^1.19`, `1.19.13` to new go version
 
 ### libs
 
@@ -170,14 +170,14 @@ $ make helpDocker
 │         ├── golder_data_test.go     # unit test test data case
 │         ├── init_test.go            # unit test initialization tool
 │         └── subcommand_new          # subcommandPackage new
-├── constant                       # constant package 
+├── constant                       # constant package
 │         └── env.go                  # constant environment variable
 ├── doc                            # command line tools documentation
 │         └── cmd.md
 ├── go.mod
 ├── go.sum
 ├── package.json                   # command line profile information
-├── resource.go                    # embed resource 
+├── resource.go                    # embed resource
 ├── utils                          # toolkit package
 │         ├── env_kit                 # environment variables toolkit
 │         ├── log                     # log toolkit
