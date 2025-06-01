@@ -1,11 +1,12 @@
 package drawing
 
 import (
-	"github.com/gdamore/tcell/v2"
 	"log"
 	"math/rand"
 	"os"
 	"time"
+
+	"github.com/gdamore/tcell/v2"
 )
 
 var seeded = false
@@ -27,6 +28,7 @@ func (c Cursor) Below(n int) Cursor {
 }
 
 // Layout represents the state of the screen
+// nolint: recvcheck
 type Layout struct {
 	W, H   int
 	Cols   []*Column
@@ -92,6 +94,7 @@ func (d *Layout) Update() {
 }
 
 func (d *Layout) SetStyleAt(s tcell.Screen, cursor Cursor, newStyle tcell.Style) {
+	//nolint: dogsled
 	_, _, oldStyle, _ := s.GetContent(cursor.X, cursor.Y)
 	if oldStyle != newStyle && d.Contains(cursor) {
 		cursorContent := d.getRuneAt(cursor)
@@ -171,6 +174,7 @@ func (c *Column) PopDrop() []*Raindrop {
 
 // Raindrop represents the moving bright green vertical area
 // of styling
+// nolint: recvcheck
 type Raindrop struct {
 	Length   int
 	Progress Cursor
