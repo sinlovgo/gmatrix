@@ -1,10 +1,10 @@
 module github.com/sinlovgo/gmatrix
 
-go 1.19
+go 1.23.0
 
 require (
 	github.com/bar-counter/slog v1.4.1
-	github.com/gdamore/tcell/v2 v2.8.1
+	github.com/gdamore/tcell/v2 v2.9.0
 	github.com/gookit/color v1.5.4
 	github.com/sebdah/goldie/v2 v2.7.1
 	github.com/stretchr/testify v1.10.0
@@ -23,8 +23,8 @@ require (
 	github.com/sergi/go-diff v1.0.0 // indirect
 	github.com/xo/terminfo v0.0.0-20210125001918-ca9a967f8778 // indirect
 	github.com/xrash/smetrics v0.0.0-20240521201337-686a1a2994c1 // indirect
-	golang.org/x/sys v0.29.0 // indirect
-	golang.org/x/term v0.28.0 // indirect
-	golang.org/x/text v0.21.0 // indirect
+	golang.org/x/sys v0.35.0 // indirect
+	golang.org/x/term v0.34.0 // indirect
+	golang.org/x/text v0.28.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
