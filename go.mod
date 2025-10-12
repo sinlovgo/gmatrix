@@ -6,7 +6,7 @@ require (
 	github.com/bar-counter/slog v1.4.1
 	github.com/gdamore/tcell/v2 v2.9.0
 	github.com/gookit/color v1.6.0
-	github.com/sebdah/goldie/v2 v2.7.1
+	github.com/sebdah/goldie/v2 v2.8.0
 	github.com/stretchr/testify v1.11.1
 	github.com/urfave/cli/v2 v2.27.7
 )
